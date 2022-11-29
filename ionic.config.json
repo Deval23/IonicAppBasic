@@ -1,0 +1,7 @@
+{
+  "name": "FINPROJ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

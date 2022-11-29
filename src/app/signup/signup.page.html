@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>signup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form>
+    <ion-card>
+      <ion-card-content>
+        <ion-item>
+        <ion-input placeholder="Email..." #emai required></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Password...</ion-label>
+          <ion-input type="password" #pass required></ion-input>
+        </ion-item>
+        <center><ion-button color="success" class="sub" (click)="RegisterUser(emai,pass)">SIGN IN</ion-button></center>
+      </ion-card-content>
+    </ion-card>
+ </form>
+
+</ion-content>
